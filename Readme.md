@@ -1,5 +1,5 @@
 # Instalación de Herramientas de Desarrollo para Linux (Debian)
-El contenido del repositorio instala entorno de Node asi mismo la opción de instalación de programas de paqueterias Flatpak o Snap.
+El contenido del repositorio ofrece opciones para instalar Node, Curl, Git, Lua.
 
 ## Uso
 1. Clonar o descargar el repositorio.
@@ -7,12 +7,10 @@ El contenido del repositorio instala entorno de Node asi mismo la opción de ins
 3. Ejecutar el archivo **install.sh**
 4. Seguir los pasos indicados en la terminal.
 
-El archivo **install.sh** descomprime y ejecuta el contenido de **scripts.tar.gz**
-
 ## Explicación de los Scripts
-1. El script que primero se ejecuta es **install_dev_tools.sh** el cual proporciona opciones de instalación de: node js, lua, packer, neovim, git, mongodb, curl y finaliza con la opción de instalar programas adicionales probenientes de las paqueterias **Snap** o **Flatpak**
+1. El script que se ejecuta es **install.sh** el cual ofrece un menu de opciones para instalar el software ofrecido
 
-2. El script opcional **install_programs.sh** proporciona opciones como: instalar snap o flatpak, luego provee opciones de instalacion de algunos programas como vscode, brave, firefox, chrome, postman, etc.
+2. Todos los scripts ejecutados por **install.sh** se encuentran dentro de la carpeta **scripts** 
 
 ## Importante
-Ninguno de los scripts realiza o efectua modificaciones al sistema operativo que no hallan sido aceptadas por el usuario que este ejecutando dicho script y todas las instalaciones de programas o herramientas se efectuan de recursos oficiales.
+Ninguno de los scripts realiza o efectua modificaciones al sistema operativo que no hallan sido aceptadas por el usuario que se encuentre ejecutando dicho script y todas las instalaciones de programas o herramientas se efectuan de recursos oficiales.
