@@ -11,6 +11,7 @@ show_menu(){
   echo "3. Install Curl"
   echo "4. Install Git"
   echo "5. Install Live Server (-g)"
+  echo "6. Install Neovim"
   echo "0. Exit"
   echo "==========================="
 }
@@ -53,6 +54,11 @@ main_menu(){
         echo "Running installation of Live Server..."
         run_script "live_server.sh"
         install_live_server
+        ;;
+      6)
+        echo "Running installation of Neovim..."
+        run_script "installer.sh"
+        install_software "Neovim" "nvim" "sudo apt install neovim"
         ;;
       0)
         echo "Leaving..."
