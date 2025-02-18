@@ -1,5 +1,5 @@
 # Instalación de Herramientas de Desarrollo para Linux (Debian)
-El contenido del repositorio ofrece opciones para instalar Node, Curl, Git, Lua.
+El contenido del repositorio ofrece opciones para instalar Node, Curl, Git, Lua, Live Server.
 
 ## Uso
 1. Clonar o descargar el repositorio.
@@ -8,7 +8,10 @@ El contenido del repositorio ofrece opciones para instalar Node, Curl, Git, Lua.
 4. Seguir los pasos indicados en la terminal.
 
 ## Explicación de los Scripts
-1. El script que se ejecuta es **install.sh** el cual ofrece un menu de opciones para instalar el software ofrecido
+1. El script que se ejecuta es **install.sh** el cual ofrece un menu de opciones para instalar el software seleccionado
+```bash
+./install.sh
+```
 
 2. Todos los scripts ejecutados por **install.sh** se encuentran dentro de la carpeta **scripts** 
 

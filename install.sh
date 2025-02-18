@@ -10,6 +10,7 @@ show_menu(){
   echo "2. Install Lua"
   echo "3. Install Curl"
   echo "4. Install Git"
+  echo "5. Install Live Server (-g)"
   echo "0. Exit"
   echo "==========================="
 }
@@ -47,6 +48,11 @@ main_menu(){
         echo "Running installation of Git..."
         run_script "installer.sh"
         install_software "Git" "git" "sudo apt install git"
+        ;;
+      5)
+        echo "Running installation of Live Server..."
+        run_script "live_server.sh"
+        install_live_server
         ;;
       0)
         echo "Leaving..."
