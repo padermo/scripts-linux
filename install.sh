@@ -3,17 +3,17 @@
 SCRIPTS_DIR="./scripts"
 
 show_menu(){
-  echo "==========================="
-  echo "       Install Menu        "
-  echo "==========================="
-  echo "1. Install Node JS (LTS)"
-  echo "2. Install Lua"
-  echo "3. Install Curl"
-  echo "4. Install Git"
-  echo "5. Install Live Server (-g)"
-  echo "6. Install Neovim"
-  echo "0. Exit"
-  echo "==========================="
+  echo "================================="
+  echo "|         Install Menu          |"
+  echo "================================="
+  echo "| 1. Install Node JS (LTS)      |"
+  echo "| 2. Install Lua                |"
+  echo "| 3. Install Curl               |"
+  echo "| 4. Install Git                |"
+  echo "| 5. Install Live Server (-g)   |"
+  echo "| 6. Install Neovim             |"
+  echo "| 0. Exit                       |"
+  echo "================================="
 }
 
 run_script() {
