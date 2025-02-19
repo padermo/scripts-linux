@@ -1,5 +1,5 @@
 # Instalación de Herramientas de Desarrollo para Linux (Debian)
-El contenido del repositorio ofrece opciones para instalar Node, Curl, Git, Lua, Live Server, Neovim.
+El contenido del repositorio ofrece opciones para instalar Node, Curl, Git, Lua, Live Server, Neovim, MongoDB.
 
 ## Uso
 1. Clonar o descargar el repositorio.

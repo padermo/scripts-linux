@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if ! command -v apt &> /dev/null; then
+  echo "This system does not use apt. Exiting..."
+  exit 1
+fi
+
 SCRIPTS_DIR="./scripts"
 
 show_menu(){
@@ -12,6 +17,7 @@ show_menu(){
   echo "| 4. Install Git                |"
   echo "| 5. Install Live Server (-g)   |"
   echo "| 6. Install Neovim             |"
+  echo "| 7. Install MongoDB            |"
   echo "| 0. Exit                       |"
   echo "================================="
 }
@@ -59,6 +65,11 @@ main_menu(){
         echo "Running installation of Neovim..."
         run_script "installer.sh"
         install_software "Neovim" "nvim" "sudo apt install neovim"
+        ;;
+      7)
+        echo "Running installation of MongoDB..."
+        run_script "mongo.sh"
+        install_mongo
         ;;
       0)
         echo "Leaving..."
